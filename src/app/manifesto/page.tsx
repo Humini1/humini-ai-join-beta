@@ -3,6 +3,7 @@ import React from 'react';
 const Manifesto = () => {
   return (
     <div className="container mx-auto px-4 py-8 max-w-4xl">
+      <h1 className="text-3xl font-bold text-center mb-8">The Humini Manifesto</h1>
       <div className="text-center space-y-6">
         <p className="text-lg">
           Spreadsheets filled with inaccurate hardware data, untraceable users, and constant frustration. A drawer in the office stuffed with outdated devices, abandoned with no plan for further use. New employees excited to join, only to be handed old, less functional equipment.
@@ -37,7 +38,11 @@ const Manifesto = () => {
         </p>
 
         <p className="text-lg font-semibold">
-          This is our mission. This is Humini. We're currently developing Humini AI. Secure your early access to our Beta and stay informed about our progress.
+          This is our mission. This is Humini.
+        </p>
+
+        <p className="text-lg">
+          We're currently developing Humini AI. Secure your early access to our Beta and stay informed about our progress.
         </p>
       </div>
     </div>
