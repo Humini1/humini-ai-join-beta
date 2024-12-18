@@ -2,7 +2,7 @@ import React from 'react';
 
 const PlatformOverview = () => {
   return (
-    <section className="w-full py-4 bg-secondary relative overflow-hidden">
+    <section className="w-full py-2 bg-secondary relative overflow-hidden">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl font-bold mb-4">Platform Overview</h2>
         <p className="text-lg">
